@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 插件的Id，安装后注册的Id为此id加js-moudle的name属性,即cordova_plugins.js里的id属性 -->
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="Media" version="0.0.1">
+    <!-- 插件名称 -->
+    <name>mediaplugin</name>
+    <!-- 插件描述 -->
+    <description>audio and video</description>
+    <!-- js文件的地址，安装后路径为：plugins/插件Id/src属性值 -->
+    <js-module name="Media" src="www/media.js">
+    <!-- 跟asserts/cordova_plugins.js中填clobbers的值一样 -->
+        <clobbers target="media"/>
+    </js-module>
+    <!-- android -->
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+        <!-- config-file中包含的这段会原封不动的插入到config.xml文件中 -->
+            <feature name="Media">
+                <param name="android-package" value="org.apache.cordova.media.Media"/>
+            </feature>
+        </config-file>
+        <!-- 本地代码，有多个文件就写多个source-file，src对应本项目，target对应安装后的目录 -->
+        <source-file src="src/android/Media.java" target-dir="src/org/apache/cordova/media"/>
+		<!-- vedio-->
+		<source-file src="src/android/video/LookVideo.java" target-dir="src/org/apache/cordova/media/video"/>
+		<source-file src="src/android/video/MovieRecorderView.java" target-dir="src/org/apache/cordova/media/video"/>
+		<source-file src="src/android/video/Video.java" target-dir="src/org/apache/cordova/media/video"/>
+		<!-- audio-->
+		<source-file src="src/android/audio/Audio.java" target-dir="src/org/apache/cordova/media/audio"/>
+		<source-file src="src/android/audio/AudioDialogManage.java" target-dir="src/org/apache/cordova/media/audio"/>
+		<source-file src="src/android/audio/AudioManage.java" target-dir="src/org/apache/cordova/media/audio"/>
+		<source-file src="src/android/audio/AudioRecorderButton.java" target-dir="src/org/apache/cordova/media/audio"/>
+		<source-file src="src/android/audio/MediaManage.java" target-dir="src/org/apache/cordova/media/audio"/>
+		<source-file src="src/android/audio/PlayAudio.java" target-dir="src/org/apache/cordova/media/audio"/>
+		<!-- src-->
+		<source-file src="src/android/res/drawable/bg_movie_add_shoot.png" target-dir="res/drawable/"/>
+    </platform>
+    <!-- 其他平台的代码 -->
+</plugin>

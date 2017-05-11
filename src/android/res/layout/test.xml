@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <org.apache.cordova.media.video.MovieRecorderView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/surfaceView"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignBottom="@+id/button" />
+
+    <ProgressBar
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_above="@+id/button"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按住拍照"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+
+        android:background="@drawable/bg_movie_add_shoot" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="松开停止,向上滑取消"
+        android:id="@+id/textView"
+        android:textColor="#4ff906"
+
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_below="@+id/textView">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button2"
+
+            android:onClick="pic"
+            android:background="@drawable/qh"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
