@@ -63,7 +63,6 @@
 		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-land-hdpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-land-hdpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-hdpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-hdpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-land-hdpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-land-hdpi/"/>
 		<source-file src="src/android/res/drawable/qh.png" target-dir="res/drawable-land-hdpi/"/>
@@ -81,7 +80,6 @@
 		<source-file src="src/android/res/drawable/bg_movie_add_shoot.png" target-dir="res/drawable-land-ldpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-land-ldpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-land-ldpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-ldpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-ldpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-land-ldpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-land-ldpi/"/>
@@ -101,7 +99,6 @@
 		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-land-mdpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-land-mdpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-mdpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-mdpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-land-mdpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-land-mdpi/"/>
 		<source-file src="src/android/res/drawable/qh.png" target-dir="res/drawable-land-mdpi/"/>
@@ -120,7 +117,6 @@
 		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-land-xhdpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-land-xhdpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-xhdpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-land-xhdpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-land-xhdpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-land-xhdpi/"/>
 		<source-file src="src/android/res/drawable/qh.png" target-dir="res/drawable-land-xhdpi/"/>
@@ -135,10 +131,9 @@
 		<source-file src="src/android/res/drawable/v7.png" target-dir="res/drawable-land-xhdpi/"/>
 		<source-file src="src/android/res/drawable/voice_to_short.png" target-dir="res/drawable-land-xhdpi/"/>
 		
-		<source-file src="src/android/res/drawable/bg_movie_add_shoot.png" target-dir="res/drawable-land-hdpi/"/>
-		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-land-hdpi/"/>
-		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-land-hdpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-hdpi/"/>
+		<source-file src="src/android/res/drawable/bg_movie_add_shoot.png" target-dir="res/drawable-port-hdpi/"/>
+		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-port-hdpi/"/>
+		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-port-hdpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-hdpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-port-hdpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-port-hdpi/"/>
@@ -158,7 +153,6 @@
 		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-port-ldpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-port-ldpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-ldpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-ldpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-port-ldpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-port-ldpi/"/>
 		<source-file src="src/android/res/drawable/qh.png" target-dir="res/drawable-port-ldpi/"/>
@@ -177,7 +171,6 @@
 		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-port-mdpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-port-mdpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-mdpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-mdpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-port-mdpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-port-mdpi/"/>
 		<source-file src="src/android/res/drawable/qh.png" target-dir="res/drawable-port-mdpi/"/>
@@ -195,7 +188,6 @@
 		<source-file src="src/android/res/drawable/bg_movie_add_shoot.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_normal.xml" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/btn_recorder_recordering.xml" target-dir="res/drawable-port-xhdpi/"/>
-		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/cancel.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/no.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/ok.png" target-dir="res/drawable-port-xhdpi/"/>
