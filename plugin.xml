@@ -198,7 +198,7 @@
 		<source-file src="src/android/res/drawable/v2.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/v3.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/v4.png" target-dir="res/drawable-port-xhdpi/"/>
-		<source-file src="src/android/res/drawable/v5.png" target-dir="res/drawable-portport-xhdpi/"/>
+		<source-file src="src/android/res/drawable/v5.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/v6.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/v7.png" target-dir="res/drawable-port-xhdpi/"/>
 		<source-file src="src/android/res/drawable/voice_to_short.png" target-dir="res/drawable-port-xhdpi/"/>
