@@ -1,3 +1,8 @@
-# media
-视频语音插件
-资源自定义添加
+需要根据相应的安卓包名修改一下几个java文件的R引用
+LookVideo
+MovieRecorderView
+Video
+Audio
+AudioDialogManage
+AudioRecorderButton
+PlayAudio
