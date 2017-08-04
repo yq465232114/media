@@ -1,5 +1,5 @@
 {
-  "name": "hewz.plugins.baidu-location",
+  "name": "org.apache.cordova.media",
   "version": "0.0.1",
   "description": "Cordova Android plugin using BaiduLocation sdk",
   "dependencies": {}
