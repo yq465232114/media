@@ -1,0 +1,9 @@
+{
+  "_spec": "https://github.com/yq465232114/media",
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "org.apache.cordova.media",
+  "name": "org.apache.cordova.media",
+  "version": "1.1.0"
+}
